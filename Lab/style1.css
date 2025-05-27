@@ -1,0 +1,13 @@
+.title{
+    font-size: 20px;
+}
+.outer{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+.inner{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+}
