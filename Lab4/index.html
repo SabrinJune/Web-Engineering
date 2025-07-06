@@ -1,0 +1,70 @@
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab2</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav style="display: flex; place-items: center; justify-content: space-between;">
+        <h1 style="color:white;font-weight: 200;">Sunny Cafe</h1>
+        <a href="" style="color: aliceblue;">Account</a>
+
+        <div class="dropdown">
+            <button class="dropbtn">Menu</button>
+            <div class="dropdown-content">
+                <a href="#">Salad</a>
+                <a href="#">Milk Shake</a>
+                <a href="#">Coffee</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn">Offers</button>
+            <div class="dropdown-content">
+                <a href="#">Juice</a>
+                <a href="#">Pretzel</a>
+                <a href="#">Cookie</a>
+            </div>
+        </div>
+
+        <div>
+            <input type="text" placeholder="Type your item">
+            <button type="submit" style="color:black; background-color: yellow;">Search</button>
+        </div>
+        <div style="color: aliceblue;"> 
+      <i class="fa-solid fa-cart-shopping" id="cartIcon" onclick="toggleCart()">
+        <sub id="cartCount">0</sub>
+      </i>
+    </div>
+    </nav>
+
+    <div class="main-banner">
+    <button class="offer-button">Button</button>
+    </div>
+
+      
+  <div class="card-container">
+    
+  </div>
+
+   
+  <div id="cartSidebar" class="cart-sidebar">
+  <h2>Your Cart</h2>
+  <div id="cartItems"></div>
+  <div id="cartTotal"><strong>Total: ৳</strong></div> 
+  <button onclick="closeCart()">Close</button>
+</div>
+
+<footer>
+  Thank you very much
+</footer>
+ 
+  <script src="index.js"></script>
+</body>
+</html>
